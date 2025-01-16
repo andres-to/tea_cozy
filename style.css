@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: rgb(0, 0, 0);
+    z-index: -10;
+}
+
+
+
+
+
+
+.headerlogo {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 70px; /* Altura fija del header */
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Separa logo y enlaces */
+    z-index: 10; /* Para mantener el header sobre el contenido */
+}
+
+.headerlogoimg {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Escala proporcionalmente */
+    width: 200px; /* Ajusta el ancho del logo */
+    height: 55px; /* Altura fija */
+}
+
+.headertext {
+    display: flex;
+    align-items: center; /* Centra los enlaces verticalmente */
+}
+
+a {
+    color: white;
+    margin-right: 20px; /* Espaciado entre enlaces */
+}
+
+
+
+
+
+
+
+
+.missionbanner {
+    margin-top: 70px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.missionbanner .mission {
+    background-color: black;
+    width: 1200px;
+    display: inline-block;
+    align-items: center;
+}
+
+/* Estilo para el contenedor del texto */
+.mission-text {
+    text-align: center;
+    color: white;
+}
+ 
+
+
+
+
+h2 {
+    text-align: center;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Contenedor de la galería */
+.gallery {
+    display: flex;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    max-width: 1000px;
+}
+
+/* Estilo para cada elemento de la galería */
+.gallery-item1, .gallery-item2, .gallery-item3, .gallery-item4, .gallery-item5 {
+    width: 300px; /* Ancho fijo de cada item */
+    height: 200px; /* Altura fija de cada item */
+    margin-bottom: 70px;
+}
+
+/* Imagen de fondo, colocada como fondo del contenedor */
+.gallery-item1 {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg');
+    background-size: cover; /* La imagen cubre todo el contenedor */
+}
+
+.gallery-item2 {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg');
+    background-size: cover; 
+}
+
+.gallery-item3 {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg');
+    background-size: cover; 
+}
+
+.gallery-item4 {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg');
+    background-size: cover; 
+}
+
+.gallery-item5 {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg');
+    background-size: cover; 
+}
+
+.gallery-items p {
+    text-align: center;
+    margin-top: 210px;
+}
+
+
+
+
+
+
+
+
+.locationsbanner {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+  
+
+.locations-item1, .locations-item2, .locations-item3  {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.locationsbanner {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mail {
+    height: 200px;
+    text-align: center;
+    line-height: 1.25;
+}
+
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
